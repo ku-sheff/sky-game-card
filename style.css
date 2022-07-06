@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #004980;
+
+    height: 100vh;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 480px;
+    height: 459px;
+    left: 272px;
+    top: 158px;
+
+    background: #C2F5FF;
+    border-radius: 12px;
+}
+
+.choice-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 48px;
+}
+
+.choice-level_one,
+.choice-level_two,
+.choice-level_three {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 98px;
+    height: 98px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+
+    background: #FFFFFF;
+    color: #0080C1;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+.start-button {
+    width: 246px;
+    height: 50px;
+
+    margin-top: 67px;
+
+    background: #7AC100;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+    border: 0;
+}
+
+.start-button__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+
+.level {
+    width: 208px;
+    height: 96px;
+
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #004980;
+}
+
+
+.choice-level_border {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 98px;
+    height: 98px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+
+    background: #FFFFFF;
+    color: #00c1b7;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    border: 2px solid chartreuse;
+}
+
+.cards-six {
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 480px;
+    height: 459px;
+    left: 272px;
+    top: 158px;
+
+    background: #923e4c;
+    border-radius: 12px;
+
+
+}
+
+.cards-twelve {
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 480px;
+    height: 459px;
+    left: 272px;
+    top: 158px;
+
+    background: #96a31d;
+    border-radius: 12px;
+}
+
+.cards-eighteen {
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    width: 480px;
+    height: 459px;
+    left: 272px;
+    top: 158px;
+
+    background: #2c8807;
+    border-radius: 12px;
+}

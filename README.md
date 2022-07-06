@@ -1,2 +1,2 @@
 # sky-game-card
-создание файлов
+Task 2 : Code Review commit
